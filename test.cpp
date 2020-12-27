@@ -16,7 +16,7 @@ void swap(int a, int b)
 
 int main(void)
 {
-	int a=10, b=20;
+	int a=15, b=20;
 	
 	swap(a,b);
 	
