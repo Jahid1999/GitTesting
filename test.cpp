@@ -6,9 +6,9 @@ void swap(int a, int b)
 {
 	cout << "a: " << a << "\tb: " << b << endl;
 	
-	int temp = a;
+	int tempu = a;
 	a = b;
-	b = temp;
+	b = tempu;
 	
 	cout << "a: " << a << "\tb: " << b << endl;
 	
