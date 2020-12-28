@@ -23,10 +23,11 @@ void printGreater(int a, int b){
 
 int main(void)
 {
-	int a=15, b=20;
+	int a=23, b=20;
 	
-	swap(a,b);
 	printGreater(a,b);
+	swap(a,b);
+	
 	
 	return 0;
 }
