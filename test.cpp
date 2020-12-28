@@ -14,11 +14,19 @@ void swap(int a, int b)
 	
 }
 
+void printGreater(int a, int b){
+	if(a>b)
+		cout << a << " is greater" << endl;
+	else
+		cout << b << " is greater" << endl;
+}
+
 int main(void)
 {
 	int a=15, b=20;
 	
 	swap(a,b);
+	printGreater(a,b);
 	
 	return 0;
 }
