@@ -6,9 +6,9 @@ void swap(int a, int b)
 {
 	cout << "a: " << a << "\tb: " << b << endl;
 	
-	int temp = a;
+	int tempu = a;
 	a = b;
-	b = temp;
+	b = tempu;
 	
 	cout << "a: " << a << "\tb: " << b << endl;
 	
@@ -23,7 +23,11 @@ void printGreater(int a, int b){
 
 int main(void)
 {
+<<<<<<< HEAD
 	int a=23, b=20;
+=======
+	int a=13, b=20;
+>>>>>>> demo1
 	
 	printGreater(a,b);
 	swap(a,b);
