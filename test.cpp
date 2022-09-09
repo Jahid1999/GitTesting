@@ -16,9 +16,10 @@ void swap(int a, int b)
 
 void printGreater(int a, int b){
 	if(a>b)
-		cout << a << " is greater" << endl;
+		cout << endl;
+		cout << a << " is greater. " << endl;
 	else
-		cout << b << " is greater" << endl;
+		cout << b << " is greater. " << endl;
 }
 
 int main(void)
