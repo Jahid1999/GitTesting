@@ -9,7 +9,7 @@ void falseReturn(int a, int b)
 		cout << b << " is greater than " << a << endl;
 	}
 	else
-			cout << a << " is greater than " << b << endl;	
+		cout << a << " is greater than " << b << endl;	
 	
 }
 
