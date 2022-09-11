@@ -30,7 +30,7 @@ int main(void)
 	printGreater(a,b);
 	swap(a,b);
 
-	cout << "Git stash apply" << endl;
+	cout << "Git stash " << endl;
 	
 	
 	return 0;
